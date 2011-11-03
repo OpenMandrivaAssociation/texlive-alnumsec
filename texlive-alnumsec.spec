@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/alnumsec
+# catalog-date 2008-05-11 02:21:17 +0200
+# catalog-license lppl
+# catalog-version v0.03
 Name:		texlive-alnumsec
 Version:	v0.03
 Release:	1
@@ -47,6 +53,7 @@ and different delimiters around them are supported.
 #- source
 %doc %{_texmfdistdir}/source/latex/alnumsec/alnumsec.dtx
 %doc %{_texmfdistdir}/source/latex/alnumsec/alnumsec.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ and different delimiters around them are supported.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
