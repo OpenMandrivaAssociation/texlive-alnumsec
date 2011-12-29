@@ -35,7 +35,6 @@ and different delimiters around them are supported.
 	%{_sbindir}/texlive.post
     fi
 
-
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/alnumsec/alnumsec.sty
