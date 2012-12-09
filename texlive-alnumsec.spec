@@ -53,3 +53,18 @@ and different delimiters around them are supported.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.03-2
++ Revision: 749163
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v0.03-1
++ Revision: 717815
+- texlive-alnumsec
+- texlive-alnumsec
+- texlive-alnumsec
+- texlive-alnumsec
+- texlive-alnumsec
+
