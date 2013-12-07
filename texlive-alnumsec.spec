@@ -6,7 +6,7 @@
 # catalog-version v0.03
 Name:		texlive-alnumsec
 Version:	v0.03
-Release:	4
+Release:	5
 Summary:	Alphanumeric section numbering
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/alnumsec
