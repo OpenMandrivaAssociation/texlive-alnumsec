@@ -5,9 +5,9 @@ Summary:	Alphanumeric section numbering
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/alnumsec
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/alnumsec.r15878.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/alnumsec.doc.r15878.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/alnumsec.source.r15878.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/alnumsec.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/alnumsec.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/alnumsec.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
