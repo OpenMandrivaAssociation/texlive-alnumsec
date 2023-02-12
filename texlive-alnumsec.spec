@@ -1,6 +1,6 @@
 Name:		texlive-alnumsec
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Alphanumeric section numbering
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/alnumsec
