@@ -3,7 +3,7 @@ Version:	15878
 Release:	3
 Summary:	Alphanumeric section numbering
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/alnumsec
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/alnumsec
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/alnumsec.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/alnumsec.doc.r%{version}.tar.xz
